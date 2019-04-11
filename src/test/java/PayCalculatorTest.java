@@ -10,4 +10,6 @@ public class PayCalculatorTest {
 
         assertEquals(0, payCalculator.calculate(0));
     }
+
+
 }
