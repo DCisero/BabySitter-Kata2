@@ -2,27 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a1f156c8-0a9d-404b-8a07-970292c9b7bb" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/FamilyA.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/FamilyB.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/FamilyBTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/resourceHashesCache.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/classAnalysis.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/jarAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/jarAnalysis.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/javaCompile.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/taskHistory.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/taskHistory/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/taskHistory/taskHistory.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/taskHistory/taskHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/taskHistory/taskHistory.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/PayCalculatorTest.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/packages/default-package.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/packages/default-package.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-PayCalculatorTest.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Family.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Family.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/FamilyB.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/FamilyB.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/FamilyATest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/FamilyATest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/FamilyBTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/FamilyBTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -73,8 +55,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/FamilyATest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="17" column="55" selection-start-line="17" selection-start-column="55" selection-end-line="17" selection-end-column="55" />
+            <state relative-caret-position="135">
+              <caret line="9" column="16" lean-forward="true" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="33" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#194#195#0" expanded="true" />
@@ -87,10 +69,12 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/FamilyBTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" column="5" lean-forward="true" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
+            <state relative-caret-position="396">
+              <caret line="32" column="4" selection-start-line="32" selection-start-column="4" selection-end-line="32" selection-end-column="4" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#206#207#0" expanded="true" />
+                <element signature="e#243#244#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -99,12 +83,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/FamilyB.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="14" lean-forward="true" selection-start-line="4" selection-start-column="14" selection-end-line="4" selection-end-column="14" />
-              <folding>
-                <element signature="e#85#86#0" expanded="true" />
-                <element signature="e#109#110#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="105">
+              <caret line="7" column="16" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
             </state>
           </provider>
         </entry>
@@ -195,17 +175,16 @@
         <option value="$PROJECT_DIR$/src/test/java/PayCalculatorTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/Family.java" />
         <option value="$PROJECT_DIR$/src/main/java/Hour.java" />
-        <option value="$PROJECT_DIR$/src/test/java/FamilyATest.java" />
         <option value="$PROJECT_DIR$/src/main/java/FamilyA.java" />
-        <option value="$PROJECT_DIR$/src/test/java/FamilyBTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/FamilyATest.java" />
         <option value="$PROJECT_DIR$/src/main/java/FamilyB.java" />
+        <option value="$PROJECT_DIR$/src/test/java/FamilyBTest.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="22" />
-    <option name="y" value="23" />
-    <option name="width" value="1250" />
+    <option name="y" value="203" />
+    <option name="width" value="1280" />
     <option name="height" value="640" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -410,7 +389,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1554994590834</updated>
-      <workItem from="1554994592031" duration="3820000" />
+      <workItem from="1554994592031" duration="4832000" />
     </task>
     <task id="LOCAL-00001" summary="Create Family class with cost method">
       <created>1554996036465</created>
@@ -440,22 +419,17 @@
       <option name="project" value="LOCAL" />
       <updated>1554997981011</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Implement FamilyB rates for 5pm to 10pm">
+      <created>1554998521868</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1554998521868</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="FamilyATest - 2019.04.11 at 11h 38m 01s.xml">
-      <configuration name="FamilyATest" configurationId="GradleRunConfiguration" />
-    </history-entry>
-    <history-entry file="FamilyATest - 2019.04.11 at 11h 39m 21s.xml">
-      <configuration name="FamilyATest" configurationId="GradleRunConfiguration" />
-    </history-entry>
-    <history-entry file="FamilyATest - 2019.04.11 at 11h 41m 53s.xml">
-      <configuration name="FamilyATest" configurationId="GradleRunConfiguration" />
-    </history-entry>
-    <history-entry file="FamilyATest - 2019.04.11 at 11h 50m 18s.xml">
-      <configuration name="FamilyATest" configurationId="GradleRunConfiguration" />
-    </history-entry>
     <history-entry file="FamilyATest - 2019.04.11 at 11h 55m 41s.xml">
       <configuration name="FamilyATest" configurationId="GradleRunConfiguration" />
     </history-entry>
@@ -474,9 +448,21 @@
     <history-entry file="Tests_in_'io_integral_test' - 2019.04.11 at 11h 59m 21s.xml">
       <configuration name="Tests in 'io.integral.test'" configurationId="GradleRunConfiguration" />
     </history-entry>
+    <history-entry file="Tests_in_'io_integral_test' - 2019.04.11 at 13h 48m 10s.xml">
+      <configuration name="Tests in 'io.integral.test'" configurationId="GradleRunConfiguration" />
+    </history-entry>
+    <history-entry file="Tests_in_'io_integral_test' - 2019.04.11 at 13h 49m 37s.xml">
+      <configuration name="Tests in 'io.integral.test'" configurationId="GradleRunConfiguration" />
+    </history-entry>
+    <history-entry file="Tests_in_'io_integral_test' - 2019.04.11 at 13h 51m 44s.xml">
+      <configuration name="Tests in 'io.integral.test'" configurationId="GradleRunConfiguration" />
+    </history-entry>
+    <history-entry file="Tests_in_'io_integral_test' - 2019.04.11 at 13h 53m 18s.xml">
+      <configuration name="Tests in 'io.integral.test'" configurationId="GradleRunConfiguration" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3820000" />
+    <option name="totallyTimeSpent" value="4832000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="640" extended-state="6" />
@@ -487,7 +473,7 @@
       <window_info id="Capture Tool" />
       <window_info id="UI Designer" />
       <window_info id="Favorites" sideWeight="0.5018248" side_tool="true" weight="0.1987076" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49817517" visible="true" weight="0.1987076" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49817517" weight="0.9757674" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Build" weight="0.32846716" />
       <window_info anchor="bottom" id="Terminal" weight="0.32846716" />
@@ -522,7 +508,8 @@
     <MESSAGE value="Family cost method returns correct rates for FamilyA" />
     <MESSAGE value="Refactor FamilyATest fiveToElevenMethod" />
     <MESSAGE value="Refactor FamilyATest to use Hour" />
-    <option name="LAST_COMMIT_MESSAGE" value="Refactor FamilyATest to use Hour" />
+    <MESSAGE value="Implement FamilyB rates for 5pm to 10pm" />
+    <option name="LAST_COMMIT_MESSAGE" value="Implement FamilyB rates for 5pm to 10pm" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/test/java/HourTest.java">
@@ -556,18 +543,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret column="17" selection-start-column="17" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/FamilyATest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="55" selection-start-line="17" selection-start-column="55" selection-end-line="17" selection-end-column="55" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#194#195#0" expanded="true" />
-            <element signature="e#231#232#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -613,21 +588,31 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/FamilyB.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="14" lean-forward="true" selection-start-line="4" selection-start-column="14" selection-end-line="4" selection-end-column="14" />
+        <state relative-caret-position="105">
+          <caret line="7" column="16" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/FamilyATest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="16" lean-forward="true" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="33" />
           <folding>
-            <element signature="e#85#86#0" expanded="true" />
-            <element signature="e#109#110#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+            <element signature="e#194#195#0" expanded="true" />
+            <element signature="e#231#232#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/FamilyBTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="5" lean-forward="true" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
+        <state relative-caret-position="396">
+          <caret line="32" column="4" selection-start-line="32" selection-start-column="4" selection-end-line="32" selection-end-column="4" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#206#207#0" expanded="true" />
+            <element signature="e#243#244#0" expanded="true" />
           </folding>
         </state>
       </provider>

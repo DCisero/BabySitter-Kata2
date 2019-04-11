@@ -30,6 +30,16 @@ public class FamilyBTest {
         assertEquals(expectedRate,family.cost(Hour.elevenPM()));
     }
 
+    @Test
+    public void works12to4_payIs16Dollars(){
+        int expectedRate = 16;
+
+        assertEquals(expectedRate,family.cost(Hour.twelveAM()));
+        assertEquals(expectedRate,family.cost(Hour.oneAM()));
+        assertEquals(expectedRate,family.cost(Hour.twoAM()));
+        assertEquals(expectedRate,family.cost(Hour.threeAM()));
+    }
+
 
 
 }
