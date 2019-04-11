@@ -1,18 +1,35 @@
+import org.junit.Before;
 import org.junit.Test;
 
 import static org.junit.Assert.assertEquals;
 
 public class FamilyBTest {
+
+    private Family family;
+
+    @Before
+    public void instantiateFamily(){
+        family = new FamilyB();
+    }
     @Test
     public void works5to10_payIs12Dollars() {
-        Family familyB = new FamilyB();
         int expectedRate = 12;
 
-        assertEquals(expectedRate, familyB.cost(Hour.fivePM()));
-        assertEquals(expectedRate, familyB.cost(Hour.sixPM()));
-        assertEquals(expectedRate, familyB.cost(Hour.sevenPM()));
-        assertEquals(expectedRate, familyB.cost(Hour.eightPM()));
-        assertEquals(expectedRate, familyB.cost(Hour.ninePM()));
+        assertEquals(expectedRate, family.cost(Hour.fivePM()));
+        assertEquals(expectedRate, family.cost(Hour.sixPM()));
+        assertEquals(expectedRate, family.cost(Hour.sevenPM()));
+        assertEquals(expectedRate, family.cost(Hour.eightPM()));
+        assertEquals(expectedRate, family.cost(Hour.ninePM()));
     }
+
+    @Test
+    public void works10to12_payIs8Dollars(){
+        int expectedRate = 8;
+
+        assertEquals(expectedRate,family.cost(Hour.tenPM()));
+        assertEquals(expectedRate,family.cost(Hour.elevenPM()));
+    }
+
+
 
 }

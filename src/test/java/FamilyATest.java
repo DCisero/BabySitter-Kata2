@@ -12,7 +12,7 @@ public class FamilyATest {
     }
 
     @Test
-    public void fiveToEleven_is15Dollars() {
+    public void works5to11_payIs15Dollars() {
         int expectedRate = 15;
 
         assertEquals(expectedRate, family.cost(Hour.fivePM()));
@@ -24,7 +24,7 @@ public class FamilyATest {
     }
 
     @Test
-    public void elevenToFour_is20Dollars() {
+    public void works11to4_payIs20Dollars() {
         int expectedRate = 20;
 
         assertEquals(expectedRate, family.cost(Hour.elevenPM()));
