@@ -1,6 +1,10 @@
 public class FamilyC implements Family {
     @Override
     public int cost(int hour) {
-        return 21;
+        if (hour < Hour.ninePM()) {
+            return 21;
+        }
+
+        return 15;
     }
 }
