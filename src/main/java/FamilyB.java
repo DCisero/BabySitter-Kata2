@@ -1,12 +1,13 @@
 public class FamilyB implements Family {
 
     @Override
-    public int cost(int hour) {
-        if (hour < 10){
+    public int cost(Hour hour) {
+        if (hour.isBetween(Hour.fivePM(),Hour.tenPM())){
             return 12;
-        } else if (hour < 12){
+        } else if (hour.isBetween(Hour.tenPM(),Hour.twelveAM())){
             return 8;
         }
+
         return 16;
     }
 }

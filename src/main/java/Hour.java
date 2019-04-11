@@ -1,49 +1,87 @@
+import java.util.Objects;
+
 public class Hour {
-    public static int fivePM() {
-        return 5;
+
+    private int hour;
+
+    private Hour(int hour) {
+        this.hour = hour;
+
     }
 
-    public static int sixPM() {
-        return 6;
+    public boolean isBetween(Hour start, Hour end) {
+        return start.hour <= this.hour && this.hour < end.hour;
     }
 
-    public static int sevenPM() {
-        return 7;
+    public void next() {
+        if (this.hour < 16) {
+            this.hour++;
+        }
     }
 
-    public static int eightPM() {
-        return 8;
+    public static Hour fivePM() {
+        return new Hour(5);
     }
 
-    public static int ninePM() {
-        return 9;
+    public static Hour sixPM() {
+        return new Hour(6);
     }
 
-    public static int tenPM() {
-        return 10;
+    public static Hour sevenPM() {
+        return new Hour(7);
     }
 
-    public static int elevenPM() {
-        return 11;
+    public static Hour eightPM() {
+        return new Hour(8);
     }
 
-    public static int twelveAM() {
-        return 12;
+    public static Hour ninePM() {
+        return new Hour(9);
     }
 
-    public static int oneAM() {
-        return 13;
+    public static Hour tenPM() {
+        return new Hour(10);
     }
 
-    public static int twoAM() {
-        return 14;
+    public static Hour elevenPM() {
+        return new Hour(11);
     }
 
-    public static int threeAM() {
-        return 15;
+    public static Hour twelveAM() {
+        return new Hour(12);
     }
 
-    public static int fourAM() {
-        return 16;
+    public static Hour oneAM() {
+        return new Hour(13);
+    }
+
+    public static Hour twoAM() {
+        return new Hour(14);
+    }
+
+    public static Hour threeAM() {
+        return new Hour(15);
+    }
+
+    public static Hour fourAM() {
+        return new Hour(16);
+    }
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        Hour hour1 = (Hour) o;
+        return hour == hour1.hour;
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(hour);
+    }
+
+    @Override
+    public String toString() {
+        return "Hour = " + this.hour;
     }
 }

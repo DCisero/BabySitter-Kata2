@@ -1,3 +1,3 @@
 public interface Family {
-    int cost(int hour);
+    int cost(Hour hour);
 }

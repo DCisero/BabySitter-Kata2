@@ -1,7 +1,8 @@
 public class FamilyC implements Family {
+
     @Override
-    public int cost(int hour) {
-        if (hour < Hour.ninePM()) {
+    public int cost(Hour hour) {
+        if (hour.isBetween(Hour.fivePM(),Hour.ninePM())) {
             return 21;
         }
 

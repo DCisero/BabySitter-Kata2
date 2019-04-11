@@ -5,12 +5,14 @@ public class PayCalculator {
         this.family = family;
     }
 
-    public int calculate(int startTime, int endTime) {
+    public int calculate(Hour startTime, Hour endTime) {
         int totalCost = 0;
-        while (startTime < endTime) {
+
+        while (startTime.isBetween(startTime,endTime)) {
             totalCost += family.cost(startTime);
-            startTime++;
+            startTime.next();
         }
+
         return totalCost;
     }
 }
