@@ -8,7 +8,7 @@ public class FamilyATest {
 
     @Before
     public void instantiateFamily() {
-        family = new Family();
+        family = new FamilyA();
     }
 
     @Test
