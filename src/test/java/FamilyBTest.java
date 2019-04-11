@@ -39,7 +39,4 @@ public class FamilyBTest {
         assertEquals(expectedRate,family.cost(Hour.twoAM()));
         assertEquals(expectedRate,family.cost(Hour.threeAM()));
     }
-
-
-
 }
