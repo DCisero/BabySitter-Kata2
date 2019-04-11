@@ -15,16 +15,22 @@ public class FamilyATest {
     public void fiveToEleven_is15Dollars() {
         int expectedRate = 15;
 
-        assertEquals(expectedRate, family.cost(5));
-        assertEquals(expectedRate, family.cost(6));
-        assertEquals(expectedRate, family.cost(7));
-        assertEquals(expectedRate, family.cost(8));
-        assertEquals(expectedRate, family.cost(9));
-        assertEquals(expectedRate, family.cost(10));
+        assertEquals(expectedRate, family.cost(Hour.fivePM()));
+        assertEquals(expectedRate, family.cost(Hour.sixPM()));
+        assertEquals(expectedRate, family.cost(Hour.sevenPM()));
+        assertEquals(expectedRate, family.cost(Hour.eightPM()));
+        assertEquals(expectedRate, family.cost(Hour.ninePM()));
+        assertEquals(expectedRate, family.cost(Hour.tenPM()));
     }
 
     @Test
     public void elevenToFour_is20Dollars() {
-        assertEquals(20, family.cost(11));
+        int expectedRate = 20;
+
+        assertEquals(expectedRate, family.cost(Hour.elevenPM()));
+        assertEquals(expectedRate, family.cost(Hour.twelveAM()));
+        assertEquals(expectedRate, family.cost(Hour.oneAM()));
+        assertEquals(expectedRate, family.cost(Hour.twoAM()));
+        assertEquals(expectedRate, family.cost(Hour.threeAM()));
     }
 }
